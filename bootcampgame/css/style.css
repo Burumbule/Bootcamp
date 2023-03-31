@@ -5,7 +5,8 @@
 body{
 	background-color: rgb(21, 78, 40);
 	font-family: 'Sofia Sans Semi Condensed', sans-serif;
-	background-image: url(/img/background2.png);
+	background-image: url(/img/background2.jpeg);
+	background-size: cover;
 	background-size: 100%;
 }
 .game-menu__btn{
@@ -15,7 +16,7 @@ body{
 	border-radius: 10px;
 	width: 400px;
 	height: 100px;
-	margin: 80px auto;
+	margin: 30px auto;
 	font-size: 40px;
 	display:flex;
 	justify-content:center;
@@ -59,6 +60,7 @@ header{
 .header__title{
 	flex-grow: 1;
 	text-align:center;
+	margin-left: 70px;
 	color: white;
 	font-size: 50px;
 	padding-top: 5px;
@@ -66,4 +68,69 @@ header{
 .game-section__conteiner{
 	display: flex;
 	flex-direction: column;
+}
+
+.game-menu__title{
+	color: white;
+	font-size: 30px;
+	margin: auto;
+	margin-top: 50px;
+	margin-bottom: 70px;
+}
+.game-field{
+	margin:auto;
+	display:flex;
+	width: 1000px;
+	flex-wrap: wrap;
+	justify-content:center;
+}
+
+.game-card{
+	width: 133px;
+	height: 200px;
+	background-image: url(/img/backside.png);
+	background-size: cover;
+	margin: 15px;
+	border-radius: 15px;
+}
+
+.type1{
+	background-image: url(/img/card1.png);
+}
+
+.type2{
+	background-image: url(/img/card1.png);
+}
+
+.type3{
+	background-image: url(/img/card1.png);
+}
+
+.type4{
+	background-image: url(/img/card1.png);
+}
+
+.type5{
+	background-image: url(/img/card1.png);
+}
+
+.type6{
+	background-image: url(/img/card1.png);
+}
+
+.type7{
+	background-image: url(/img/card1.png);
+}
+
+.type8{
+	background-image: url(/img/card1.png);
+}
+
+
+
+.flip {
+	background-color: rgb(29, 122, 87);
+	background-size: cover;
+	transform: perspective(100px) rotateY(-180deg);
+	transition: 0.5s;
 }
