@@ -1,6 +1,6 @@
 import { createGameMenu } from "./Gamemenu.js"
 
-const game=()=>{
-	createGameMenu ();
+const game = () => {
+	createGameMenu(false);
 }
 game();
